@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Generated Files
+Resume_Analysis_Report.pdf
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store

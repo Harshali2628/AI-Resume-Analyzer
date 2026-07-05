@@ -1,0 +1,49 @@
+/* Main App */
+.main {
+    padding: 2rem;
+}
+
+/* Button */
+.stButton > button {
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(90deg,#4CAF50,#2E8B57);
+    color: white;
+    border: none;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg,#45a049,#1e7a44);
+}
+
+/* Metrics */
+div[data-testid="metric-container"]{
+    background:#1E1E2F;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid #2b2b2b;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#1E1E2F;
+}
+
+/* File Uploader */
+div[data-testid="stFileUploader"]{
+    border-radius:15px;
+}
+
+/* Expander */
+.streamlit-expanderHeader{
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* Progress */
+.stProgress > div > div > div > div{
+    background:#4CAF50;
+}
