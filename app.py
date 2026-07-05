@@ -7,6 +7,15 @@ from utils.report_generator import create_pdf
 from utils.charts import show_gauge, show_pie
 from utils.ui import show_resume_status
 
+
+
+st.set_page_config(
+    page_title="AI Resume Analyzer",
+    page_icon="📄",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 def load_css():
     with open("style.css") as f:
         st.markdown(
@@ -15,13 +24,6 @@ def load_css():
         )
 
 load_css()
-
-st.set_page_config(
-    page_title="AI Resume Analyzer",
-    page_icon="📄",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 st.sidebar.title("📄 AI Resume Analyzer")
 
