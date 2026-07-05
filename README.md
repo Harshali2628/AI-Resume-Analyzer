@@ -6,7 +6,7 @@ An AI-powered Resume Analyzer that evaluates resumes against a Job Description u
 
 ## 🚀 Live Demo
 
-🔗 https://your-streamlit-app-url.streamlit.app
+🔗 [https://your-streamlit-app-url.streamlit.app](https://ai-resume-analyzer-wrus4aprm3y2lf4kzi5k3t.streamlit.app/)
 
 ---
 
